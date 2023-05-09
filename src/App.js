@@ -20,6 +20,7 @@ function App() {
                <div className="row">
                     <div className="col-sm-6">
                          <textarea
+                              id="editor"
                               className="form-control"
                               rows="35"
                               onChange={handleChange}
@@ -29,7 +30,10 @@ function App() {
                          {/* input */}
                     </div>
                     <div className="col-sm-6">
-                         <div dangerouslySetInnerHTML={renderChange(text)} />
+                         <div
+                              dangerouslySetInnerHTML={renderChange(text)}
+                              id="preview"
+                         />
                     </div>
                </div>
                <div className="text-center my-4">
