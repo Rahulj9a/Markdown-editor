@@ -1,6 +1,5 @@
 import "./App.css";
 import { marked } from "marked";
-
 import { useState } from "react";
 import { mangle } from "marked-mangle";
 import DOMPurify from "dompurify";
