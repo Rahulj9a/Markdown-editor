@@ -32,6 +32,10 @@ function App() {
                          <div dangerouslySetInnerHTML={renderChange(text)} />
                     </div>
                </div>
+               <div className="text-center my-4">
+                    Made by <a href="https://twitter.com/rahulj9a">RahulJ9A</a>{" "}
+                    for <a href="https://freecodecamp.com">Freecodecamp</a>
+               </div>
           </div>
      );
 }
