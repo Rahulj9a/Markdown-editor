@@ -39,6 +39,12 @@ function App() {
                <div className="text-center my-4">
                     Made by <a href="https://twitter.com/rahulj9a">RahulJ9A</a>{" "}
                     for <a href="https://freecodecamp.com">Freecodecamp</a>
+                    <p>
+                         Checkout code on
+                         <a href="https://github.com/Rahulj9a/Markdown-editor">
+                              Github
+                         </a>
+                    </p>
                </div>
           </div>
      );
